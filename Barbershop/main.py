@@ -36,7 +36,7 @@ def main(args):
     im_path3 = os.path.join(args.input_dir, args.im_path3)
 
     im_set = {im_path1, im_path2, im_path3}
-    ii2s.invert_images_in_W([*im_set])
+    # ii2s.invert_images_in_W([*im_set])
     ii2s.invert_images_in_FS([*im_set])
 
     align = Alignment(args)
