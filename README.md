@@ -18,7 +18,7 @@ Reduced by 1/3 for improvement. In particular, this paper is expected to be a co
 ## Quality of the virtual hairstyling generation model
 <img src="./resources/quality_img.png" width="90%">
 
-## Average inference time of virtual hairstyling generation model
+## Average inference time of virtual hairstyling generation model (sec)
 |HairCLIP|Barbershop|Barbershop++ (Ours)|
 |---:|---:|---:|
 |11.4|864.75|278.86|
@@ -37,16 +37,15 @@ and put them in the `Barbershop/input/face` folder.
 ## Inference
 Please check the `./Barbershop++-inference.ipynb` file in this repository.
 
-
-pSp 인코딩 후, Barbershop/output/W+ 폴더에 .npy 파일 저장
+After encoding pSp, save `.npy` file in `Barbershop/output/W+` folder
 
 ```shell
-# unprocessed 폴더에 있는 파일의 얼굴을 alignment하고, 자동으로 input/face 폴더에 이미지 생성
+# Align the face of the file in the unprocessed folder, and automatically create an image in the input/face folder
 !python align_face.py
 ```
 
 ```shell
-# 예시 script
+# inference script example
 !python main.py --im_path1 input_img2.png --im_path2 117.png --im_path3 117.png --sign realistic --smooth 1
 ```
 
