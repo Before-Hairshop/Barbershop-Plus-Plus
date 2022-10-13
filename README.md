@@ -1,8 +1,8 @@
 # Barbershop++
 
 ## Authors
-- Bohgyu Kim, Kyongmo Kim, Nayoung U
-- Konkuk Univ, KAIST Univ, Ajou Univ
+- Bohgyu Kim, Kyongmo Kim, Nayoung U, DongBin Na
+- Konkuk Univ, KAIST Univ, Ajou Univ, POSTECH
 
 ## Abstract
 > Recently, virtual hair styling service using deep learning technology is attracting attention. The core of virtual hair styling technology is ① to change the hairstyle naturally while maintaining the identity of the person, and ② to return the results quickly enough to satisfy the service users. However, existing deep learning-based methods have a problem in that they change not only the hairstyle but also the facial features that indicate the identity of the face, or that inference takes a long time. In this paper, we propose Barbershop++, a method that applies an encoding network to the core components of the existing Barbershop method. Barbershop++ speeds traditional reasoning while maintaining image quality with virtual hair styling.
