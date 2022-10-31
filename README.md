@@ -27,7 +27,7 @@ Reduced by 1/3 for improvement. In particular, this paper is expected to be a co
 ## Prerequisite
 - Prepare 2 images (Target, Reference)
     - Please put the **target image** in the form of `Barbershop/unprocessed/input_img.jpg`.
-    - Please put the **reference image** in the form of `Barbershop/unprocessed/input_img.jpg`.
+    - Please put the **reference image** in the form of `Barbershop/unprocessed/ref_img.jpg`.
 
 
 ## Download II2S images
